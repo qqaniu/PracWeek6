@@ -14,6 +14,9 @@
 		3CC9FDCD1EA817C500811894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC9FDCB1EA817C500811894 /* LaunchScreen.storyboard */; };
 		3CC9FDD81EA817C500811894 /* Practical6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9FDD71EA817C500811894 /* Practical6Tests.swift */; };
 		3CC9FDE31EA817C500811894 /* Practical6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9FDE21EA817C500811894 /* Practical6UITests.swift */; };
+		3CC9FDF11EA8200700811894 /* TblViewControllerTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9FDF01EA8200700811894 /* TblViewControllerTrips.swift */; };
+		3CC9FDF31EA8202100811894 /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9FDF21EA8202100811894 /* TblViewControllerTripInfo.swift */; };
+		3CC9FDF71EA821F800811894 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9FDF61EA821F800811894 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3CC9FDDE1EA817C500811894 /* Practical6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practical6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC9FDE21EA817C500811894 /* Practical6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical6UITests.swift; sourceTree = "<group>"; };
 		3CC9FDE41EA817C500811894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC9FDF01EA8200700811894 /* TblViewControllerTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTrips.swift; sourceTree = "<group>"; };
+		3CC9FDF21EA8202100811894 /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
+		3CC9FDF61EA821F800811894 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = ../Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3CC9FDC21EA817C500811894 /* AppDelegate.swift */,
 				3CC9FDC41EA817C500811894 /* ViewController.swift */,
 				3CC9FDC61EA817C500811894 /* Main.storyboard */,
+				3CC9FDF01EA8200700811894 /* TblViewControllerTrips.swift */,
+				3CC9FDF21EA8202100811894 /* TblViewControllerTripInfo.swift */,
+				3CC9FDF61EA821F800811894 /* Trip.swift */,
 				3CC9FDC91EA817C500811894 /* Assets.xcassets */,
 				3CC9FDCB1EA817C500811894 /* LaunchScreen.storyboard */,
 				3CC9FDCE1EA817C500811894 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC9FDF71EA821F800811894 /* Trip.swift in Sources */,
+				3CC9FDF11EA8200700811894 /* TblViewControllerTrips.swift in Sources */,
 				3CC9FDC51EA817C500811894 /* ViewController.swift in Sources */,
+				3CC9FDF31EA8202100811894 /* TblViewControllerTripInfo.swift in Sources */,
 				3CC9FDC31EA817C500811894 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
